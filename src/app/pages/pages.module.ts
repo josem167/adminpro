@@ -11,6 +11,7 @@ import { ChartsModule } from "ng2-charts";
 import { GraficasComponent } from '../components/graficas/graficas.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from "@angular/common";
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CommonModule } from "@angular/common";
     ProgressComponent,
     PagesComponent,
     IncrementadorComponent,
-    GraficasComponent
+    GraficasComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,

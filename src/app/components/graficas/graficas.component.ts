@@ -16,7 +16,6 @@ export class GraficasComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.data);
   }
 
 }
